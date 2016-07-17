@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>gentoo-gnss-sdr-overlay</name>
+    <description>GNSS-SDR portage overlay with GIT ebuilds for the GNSS-SDR project</description>
+    <homepage>https://github.com/feddischson/gentoo-gnss-sdr-overlay</homepage>
+    <source type="git">https://github.com/feddischson/gentoo-gnss-sdr-overlay.git</source>
+  </repo>
+</repositories>
