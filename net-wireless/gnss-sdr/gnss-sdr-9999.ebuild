@@ -32,7 +32,6 @@ DEPEND="
 
 src_prepare() {
 
-	epatch "${FILESDIR}/${P}-cmake_pthreads.patch"
 	epatch "${FILESDIR}/${P}-orc_lib.patch"
 
 	# this is ugly but seems to be required
