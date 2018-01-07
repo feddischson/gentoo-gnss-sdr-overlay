@@ -1,0 +1,13 @@
+diff --git a/src/algorithms/tracking/libs/CMakeLists.txt b/src/algorithms/tracking/libs/CMakeLists.txt
+index 3aa2ec9..eeb5c50 100644
+--- a/src/algorithms/tracking/libs/CMakeLists.txt
++++ b/src/algorithms/tracking/libs/CMakeLists.txt
+@@ -68,7 +68,7 @@ file(GLOB TRACKING_LIB_HEADERS "*.h")
+ list(SORT TRACKING_LIB_HEADERS)
+ add_library(tracking_lib ${TRACKING_LIB_SOURCES} ${TRACKING_LIB_HEADERS})
+ source_group(Headers FILES ${TRACKING_LIB_HEADERS})
+-target_link_libraries(tracking_lib ${OPT_TRACKING_LIBRARIES} ${VOLK_LIBRARIES} ${VOLK_GNSSSDR_LIBRARIES} ${GNURADIO_RUNTIME_LIBRARIES})
++target_link_libraries(tracking_lib ${OPT_TRACKING_LIBRARIES} ${VOLK_LIBRARIES} ${VOLK_GNSSSDR_LIBRARIES} ${GNURADIO_RUNTIME_LIBRARIES} ${ORC_LIBRARIES})
+ 
+ if(VOLK_GNSSSDR_FOUND)
+     add_dependencies(tracking_lib glog-${glog_RELEASE})
