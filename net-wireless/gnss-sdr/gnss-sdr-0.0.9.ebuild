@@ -24,7 +24,7 @@ DEPEND="
   dev-libs/boost
   net-wireless/gnuradio[uhd]
   >=dev-cpp/gflags-2.1.2
-  >=sci-libs/armadillo-4.650.4
+  >=sci-libs/armadillo-4.650.4[lapack]
   osmo? ( net-wireless/gr-osmosdr[uhd] )
   osmo? ( >=net-libs/libosmo-dsp-0.3 )
   osmo? ( >=net-wireless/gr-osmosdr-0.1.4_p20150730 )
