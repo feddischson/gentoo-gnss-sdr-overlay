@@ -33,7 +33,6 @@ DEPEND="
 src_prepare() {
 
  	epatch "${FILESDIR}/${P}-volk_gnsssdr_arch_python3.patch"
- 	epatch "${FILESDIR}/${P}-orc_lib.patch"
 
 	# this is ugly but seems to be required
 	git clone https://github.com/google/googletest.git googletest
