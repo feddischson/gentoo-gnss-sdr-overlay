@@ -2,7 +2,7 @@
 EAPI=6
 
 EGIT_REPO_URI="https://github.com/gnss-sdr/gnss-sdr.git"
-EGIT_COMMIT="v0.0.8"
+EGIT_COMMIT="v0.0.9"
 
 inherit git-r3 cmake-utils
 
