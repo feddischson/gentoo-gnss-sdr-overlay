@@ -15,6 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="generic osmo opencl cuda"
 
+PYTHON_COMPAT=( python3_{4,5,6} )
+inherit python-any-r1
+
 DEPEND="
   dev-cpp/gtest
   dev-cpp/glog
